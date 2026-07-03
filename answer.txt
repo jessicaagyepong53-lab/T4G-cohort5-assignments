@@ -43,3 +43,23 @@ Q7:
 Q8:
 	•	Frontend: What users see and interact with (buttons, forms, design).
 	•	Backend: Server-side logic, databases, authentication, and processing.
+
+Part 2
+
+Client (Browser sends request) 
+  --> DNS (Finds IP address of the website)
+  --> Firewall (Checks and blocks unsafe traffic)
+  --> Load Balancer (Distributes traffic to available servers)
+  --> Web Server (Receives request and serves static content or forwards it)
+  --> Application Server (Runs business logic and processes request)
+  --> Database (Stores and retrieves data)
+  
+  <-- Application Server (Sends processed result)
+  <-- Web Server (Prepares response)
+  <-- Load Balancer (Routes response back)
+  <-- Firewall (Allows safe response through)
+  <-- DNS (Not involved in return path usually)
+  <-- Client (Receives and displays result)
+
+
+  
