@@ -62,4 +62,36 @@ Client (Browser sends request)
   <-- Client (Receives and displays result)
 
 
-  
+  Part 3
+
+  Q9:
+Because a lot of backend work happens on servers that don’t have a graphical interface. The command line lets developers:
+	•	run servers and apps
+	•	install tools and packages
+	•	manage files quickly
+	•	deploy code to remote machines
+It’s faster and more powerful for backend tasks than clicking through folders.
+
+
+Q10:
+	•	Absolute path: The full path starting from the root of the system.
+	•	Example (Linux/Mac): /home/jesse/projects/app.js
+	•	Example (Windows): C:\Users\Jesse\Documents\app.js
+	•	Relative path: A path based on your current location in the system.
+	•	Example: projects/app.js (if you’re already in /home/jesse/)
+
+
+Q11:
+File Explorer is fine for basic tasks, but the command line is built for speed, control, and automation.
+	•	Command Line Interface (CLI) lets you do repetitive tasks in seconds (like moving 100 files at once)
+	•	You can manage remote servers
+	•	You can run scripts and deploy apps directly
+	•	It’s what real production systems use
+
+
+Q12:
+	•	~ (tilde): Represents your home directory
+	•	Example: cd ~ takes you to /home/yourname
+	•	$: Represents a normal user prompt in Unix/Linux systems
+	•	It shows that the terminal is ready for a command
+	•	If you see # instead, it usually means you are the root/admin user
