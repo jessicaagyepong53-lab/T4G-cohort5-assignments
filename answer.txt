@@ -1,0 +1,45 @@
+Part 1
+
+Q1:
+The device first checks if it already knows Google’s address. If not, it asks DNS to find the real IP address. Once it gets the IP, your browser connects to Google’s server, sends a request, and the server responds with the webpage, which your browser then displays.
+
+
+Q2:
+A client is the device or app that requests information. A server is the system that sends the information back.
+	•	Client example: Your phone browser (Chrome on iPhone)
+	•	Server example: Google’s computers that store and send search results
+
+
+Q3:
+DNS (Domain Name System) is like the internet’s phonebook. It converts names like google.com into IP addresses like 142.250.x.x. We need it because computers use numbers, but humans use names.
+
+
+Q4:
+	•	Firewall: Protects systems by blocking unwanted or harmful traffic (security guard).
+	•	Load balancer: Distributes traffic across multiple servers so no single server gets overloaded (traffic controller).
+Difference: Firewall focuses on security, while load balancer focuses on performance and traffic distribution.
+
+
+Q5:
+	•	Web server: Handles HTTP requests and serves static content (HTML, images, CSS  someimes javascript).
+	•	Application server: Runs backend logic, processes data, connects to databases.
+Backend developers mostly work with application servers because that’s where business logic (login, payments, etc.) happens.
+
+
+Q6:
+For security and control reasons. If clients accessed the database directly, data could be stolen or modified easily.
+Benefits of an application server in between:
+	•	Protects sensitive data
+	•	Controls who can access what
+	•	Adds business logic (validation, rules)
+	•	Improves security and stability
+
+
+Q7:
+	•	University department page (knust.edu.addmissions): Usually static or semi-static because information like courses, staff, and announcements doesn’t change every second.
+	•	MTN MoMo account page: Dynamic website because it changes in real time (balance, transactions, user-specific data).
+
+
+Q8:
+	•	Frontend: What users see and interact with (buttons, forms, design).
+	•	Backend: Server-side logic, databases, authentication, and processing.
